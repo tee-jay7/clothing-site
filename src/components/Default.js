@@ -11,10 +11,10 @@ function Default() {
       </div>
       <div className="row">
         <Link to="/">
-          <h4 className="title">Head back home</h4>
+          <h4 className="title text-blue">Head back home</h4>
         </Link>
 
-        <img src={notfound} alt="page not foun" />
+        <img src={notfound} alt="page not found" />
       </div>
     </div>
   );
