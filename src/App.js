@@ -11,7 +11,7 @@ import Default from "./components/Default";
 import About from "./components/About";
 
 function App() {
-  const [products, setProducts] = useState(storeProducts);
+  const [products] = useState(storeProducts);
   const [productDetail, setProductDetail] = useState(detailProduct);
   const setDetail = (id) => {
     let product = products.find((product) => product.id === id);
